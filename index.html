@@ -15,12 +15,12 @@
     <div class="right_panel">
       <header>
         <nav class="nav_menu">
-          <a href="#!">О компании</a>
-          <a href="#!">Инвестору</a>
-          <a href="#!">Новости</a>
-          <a href="#!">Отзывы</a>
-          <a href="#!">F.A.Q</a>
-          <a href="#!">Контакты</a>
+        <a href="#about">О компании</a>
+        <a href="#investor">Инвестору</a>
+        <a href="#news">Новости</a>
+        <a href="#reviews">Отзывы</a>
+        <a href="#faq">F.A.Q.</a>
+        <a href="#contacts">Контакты</a>
         </nav>
         <button class="btn_auth">Вхол/Регистрация</button>
       </header>
@@ -32,7 +32,7 @@
     </div>
   </div>
   <div class="container">
-    <div class="how_work_block">
+    <div id="about" class="how_work_block">
       <div class="how_work_title">
         <div class="upper_panel">
           <section>
@@ -78,7 +78,7 @@
       </div>
     </div>
   </div>
-  <div class="invest_block">
+  <div id="investor" class="invest_block" >
     <aside>
       <img src="./style/img/photo_invest.png" alt="">
     </aside>
@@ -170,7 +170,7 @@
       </div>
     </div>
   </div>
-  <div class="static">
+  <div id="reviews" class="static">
     <div class="container">
       <div class="static_title">
         <h1>Статистика компании</h1>
@@ -243,7 +243,7 @@
       </div>
     </div>
 
-    <div class="betting_block">
+    <div id="news" class="betting_block">
       <div class="betting_title">
         <div class="upper_panel">
           <section>
@@ -287,7 +287,7 @@
       <h1>Часто задаваемые вопросы</h1>
       <img src="./style/img/blue_line.png" alt="">
     </div>
-    <div class="startap_block">
+    <div id="faq" class="startap_block">
       <div class="startap_block_question">
         <div class="startap_block_content">
           <h1>?</h1>
@@ -312,6 +312,7 @@
       </div>
     </div>
   </div>
+  <button id="scrollToTop" class="scroll-to-top">↑</button>
   <footer>
     <div class="container">
       <div class="footer_content">
@@ -335,7 +336,7 @@
             </div>
           </div>
         </div>
-        <div class="contact_footer">
+        <div id="contacts" class="contact_footer">
           <h1>Контакты</h1>
           <img src="./style/img/long_line.png" alt="">
           <p class="phone_footer">+7 (499)-229-33-33</p>
@@ -348,5 +349,6 @@
       </div>
     </div>
   </footer>
+  <script src="./script/main.js"></script>
 </body>
 </html>
