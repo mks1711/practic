@@ -5,8 +5,21 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
   <link rel="stylesheet" href="./style/style.css">
+  <script src="./script/main.js"></script>
 </head>
 <body>
+  <div id="authModal" class="modal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <h2>Регистрация / Вход</h2>
+      <form id="authForm">
+        <input type="text" placeholder="Имя" required>
+        <input type="email" placeholder="Email" required>
+        <input type="password" placeholder="Пароль" required>
+        <button type="submit">Отправить</button>
+      </form>
+    </div>
+  </div>
   <div class="first_block">
     <aside class="left_panel">
       <h1>Начать <br> зарабатывать</h1>
@@ -349,6 +362,5 @@
       </div>
     </div>
   </footer>
-  <script src="./script/main.js"></script>
 </body>
 </html>

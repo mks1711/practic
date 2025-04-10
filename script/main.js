@@ -30,3 +30,22 @@ document.addEventListener("DOMContentLoaded", () => {
     });
  
  });
+ document.addEventListener("DOMContentLoaded", () => {
+  const modal = document.getElementById("authModal");
+  const btnAuth = document.querySelector(".btn_auth");
+  const closeBtn = document.querySelector(".close");
+
+  btnAuth.addEventListener("click", () => {
+      modal.style.display = "block";
+  });
+
+  closeBtn.addEventListener("click", () => {
+      modal.style.display = "none";
+  });
+
+  window.addEventListener("click", (event) => {
+      if (event.target === modal) {
+          modal.style.display = "none";
+      }
+  });
+});
